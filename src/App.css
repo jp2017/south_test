@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+}
+
+.list {
+  padding-right: 120px;
+  padding-left: 120px;
+  margin-top: 40px;
+}
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.pagination .number {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16pt;
+}
+
+.input {
+  width: 300px;
+  font-size: 16pt;
+}
+.input-next {
+  width: 80px;
+  margin-left: 8px;
+  font-size: 16pt;
+}
+.search-button {
+  margin-left: 8px;
+  font-size: 16pt;
+}
